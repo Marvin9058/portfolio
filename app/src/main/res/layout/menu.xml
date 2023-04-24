@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#FFFFFF"
+    android:orientation="horizontal"
+    android:weightSum="5">
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/bottom_home_tab_enable"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="#989595" />
+
+    <TextView
+        android:id="@+id/search"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/bottom_search_tab_enable"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/star"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/bottom_evaluation_tab_enable"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="#000000"
+
+        />
+
+    <TextView
+        android:id="@+id/heart"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/bottom_social_tab_enable"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="#000000" />
+
+
+    <TextView
+        android:id="@+id/person"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/bottom_mypage_tab_enable"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="#000000"
+
+        />
+
+
+</LinearLayout>
